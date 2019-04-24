@@ -28,7 +28,9 @@ Handler files are located instead of main files:
 after encryption, some handler files are created with the same name as the main files and you should place them at the main files place; All these handler files are as same formats: "exampleFile.php" and instead of FFFFFF.php in the context of this file the corresponding file number is written in it (the file that the handler is going to decrypt it); there is a file name "batch_wipe.php" that does this work automatically (replacing FFFFFF.php with #.php) and puts the result in the "changed_files" directory;
 you should replace this directory files with the main plain files! and then you should make a directory near new files "methods" and put 1.php to n.php in it! and one version of "decryptor.php", "encryptor.php" should be copied there, ofcourse with different name e.g. decryptor1.php,encryptor1.php, decryptor2.php,encryptor2.php, so on; (this file should be imported in the handler files) and the methods inside them should be changed too! (decryptor-> decryptor1,...) and then be copied to "methods" folder!
 
+you should place the key file in the methods folder, addressing it to the decryptor method;
 
+see the example files for more information.
 
 
 
