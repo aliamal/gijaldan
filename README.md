@@ -1,5 +1,5 @@
 Gijaldan
-PHP Batch Obfuscation Tool (Gijaldan)
+PHP Batch Obfuscation Tool (Gijaldan-PBOT)
 
 The most powerful PHP Encryption and Obfuscation tool
 
